@@ -1,0 +1,19 @@
+package com.codingbat;
+
+public class Logic {
+
+  /***
+   * Problem Statement: https://codingbat.com/prob/p159531
+   * @param cigars
+   * @param isWeekend
+   * @return
+   */
+  public boolean cigarParty(int cigars, boolean isWeekend) {
+    if (isWeekend == true && cigars >= 20)
+    return true;
+  if (!(isWeekend) && cigars >=20 && cigars <= 40)
+    return true;
+  else
+    return false;
+  }
+}
